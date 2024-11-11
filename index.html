@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="card">
+        <div class="search-box">
+            <input type="text" class="input-text" id="search-input" placeholder="Search for a city...">
+            <a class="search-button">
+                <img src="./asset/images/search.png" alt="search-icon" class="search-icon">
+            </a>
+        </div>
+        <div class="loading-overlay">
+            <div class="spinner"></div>
+        </div>
+    
+        <div class="weather-content">
+            <div class="weather">
+                <img src="" alt="" class="wheater-img">
+                <h1 class="temperature"></h1>
+                <h2 class="city-name"></h2>
+            </div>
+        <div class="detail">
+            <div class="humidity">
+                <img src="./asset/images/humidity.png" alt="" class="humidity-img">
+                <div class="text-humidity">
+                    <h3 class="humidity-js"></h3>
+                    <h4>Humidity</h4>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="./asset/images/wind.png" alt="" class="wind-img">
+                <div>
+                    <h3 class="wind-speed-js"></h3>
+                    <h4>Wind Speed</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
